@@ -89,13 +89,14 @@ input, select {
 
 body {
   color: #444444;
-  background: #444444;
+  background: #F8CA4D;
   background-repeat:no-repeat;
   background-position:right;
 }
 
 a {
-  color: #B69600;
+  color: #F8CA4D;
+  text-decoration: none;
 }
 
 a:hover {
@@ -110,24 +111,58 @@ p {
 }
 
 h1 {
-  font-size: 1.7em;
+  font-size: 3.2em;
 }
 
 .side-bar {
-  width: 480px;
+  width: 435px;
   height: 100%;
   background: white;
-  padding: 50px 0 0 50px;
+  padding: 0 0 0 50px;
   position: absolute;
 }
 
 .logo {
   background: #444444;
-  width: 240px;
+  width: 340px;
   padding: 20px;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  margin: 0 0 50px 0;
+  margin: 50px 0 20px 0;
   text-align: center;
+}
+
+.hex {
+  color: #fff;
+  float: right;
+  padding: 50px 65px 0 0;
+  text-align: right;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+
+body {
+  background: white;
+}
+
+p {
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 2.4em;
+}
+
+.side-bar {
+  width: 310px;
+  padding: 20px 0 0 10px;
+  position: absolute;
+}
+
+.logo {
+  width: 260px;
+  margin: 0;
+}
+
 }
