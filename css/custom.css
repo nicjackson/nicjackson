@@ -89,13 +89,13 @@ input, select {
 
 body {
   color: #444444;
-  background: #F8CA4D;
+  background: #f5ac5d;
   background-repeat:no-repeat;
   background-position:right;
 }
 
 a {
-  color: #F8CA4D;
+  color: #f5ac5d;
   text-decoration: none;
 }
 
@@ -115,7 +115,7 @@ h1 {
 }
 
 .side-bar {
-  width: 435px;
+  width: 440px;
   height: 100%;
   background: white;
   padding: 0 0 0 50px;
@@ -123,15 +123,10 @@ h1 {
 }
 
 .logo {
-  background: #444444;
-  width: 340px;
-  padding: 20px;
-  color: #fff;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  margin: 50px 0 20px 0;
-  text-align: center;
+  width: 400px;
+  margin: 50px 0 50px 0;
 }
+
 
 .hex {
   color: #fff;
@@ -161,8 +156,8 @@ h1 {
 }
 
 .logo {
-  width: 260px;
-  margin: 0;
+  width: 300px;
+  margin: 0 0 10px 0;
 }
 
 }
